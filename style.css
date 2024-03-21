@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    /* width: 83vw;
+    max-width: 90%;
+    margin: 0 auto; */
+    margin: 0 50px;
+}
+
+nav {
+    background-color: purple;
+    color: white;
+    padding: 15px;
+
+}
+
+section>h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+
+
+}
+
+.form_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.input_wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+input {
+    font-size: 20px;
+}
+
+.search {
+    font-size: 20px;
+    background-color: purple;
+    color: wheat;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+section.data {
+    text-align: center;
+    margin-top: 15px;
+}
+
+section>span {
+    display: none;
+}
+
+.def {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+}
+
+.not_found {
+    font-weight: bold;
+    padding: 0px 317px;
+
+}
+
+.suggestion {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 4px 9px;
+
+}
+
+.def{
+    padding: 0px 317px;
+
+}
+
+    
+.audio{
+    margin-top: 15px;
+}
+
+.loading{
+    font-weight: bold;
+}
